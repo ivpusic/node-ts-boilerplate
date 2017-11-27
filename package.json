@@ -1,0 +1,32 @@
+{
+  "name": "node-ts-boilerplate",
+  "version": "0.0.1",
+  "description": "Minimal boilerplate for Node.js typescript projects",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --exit --require ts-node/register test/*.ts",
+    "start": "nodemon -e ts --exec 'ts-node' src/index.ts"
+  },
+  "keywords": [],
+  "author": "Ivan Pusic",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.5",
+    "@types/koa": "^2.0.41",
+    "@types/koa-router": "^7.0.26",
+    "@types/mocha": "^2.2.44",
+    "@types/node": "^8.0.53",
+    "@types/supertest": "^2.0.4",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "supertest": "^3.0.0",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  }
+}
