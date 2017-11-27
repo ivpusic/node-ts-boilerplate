@@ -1,4 +1,4 @@
-# ts-boilerplate
+# node-ts-boilerplate
 
 Minimal boilerplate for Node.js typescript projects
 
