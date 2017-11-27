@@ -1,7 +1,4 @@
 import * as Koa from 'koa';
-import * as fs from 'fs';
-import * as path from 'path';
-
 import * as Router from 'koa-router';
 
 const app = new Koa();
