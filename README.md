@@ -4,11 +4,11 @@ Minimal boilerplate for Node.js typescript projects
 
 Included:
 
-- Typescript
 - Node.js
+- Typescript
 - Koa
-- Nodemon
 - Koa Router
+- Nodemon
 - Supertest
 
 Cloning:
